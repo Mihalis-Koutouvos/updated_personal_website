@@ -4,9 +4,11 @@ import './About.css'
 const About = () => {
   return (
     //id necessary for linking when we use hashtags
+    //Child error with image, so changed to inline
     <div className='about' id='about'>
         <div className='container'>
-            <img src='/images/profile-pic.png' alt='Mihalis'>Mihalis Koutouvos</img>
+            
+            <img src='/images/profile-pic.jpeg' alt='Mihalis' />
             <div className='text-section'>
                 <h2>About:</h2>
                 <span className='highlight-line'></span>
