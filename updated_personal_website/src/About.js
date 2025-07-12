@@ -9,6 +9,7 @@ const About = () => {
             <img src='/images/profile-pic.png' alt='Mihalis'>Mihalis Koutouvos</img>
             <div className='text-section'>
                 <h2>About:</h2>
+                <span className='highlight-line'></span>
                 <p>Hello! My name is Mihalis Koutouvos, and I am a current third-year student at Northeastern University from Ashland, Massachusetts. I am pursuing a Bachelor’s of Science in computer science with a concentration in artificial intelligence and minoring in math. I am intrigued by artificial intelligence, 
                     data engineering, data analytics, data science, machine learning, natural-language processing, and cloud storage. With my diligence, perseverance, and problem-solving capabilities, I have been able to launch myself into the world of computers, trying out new programming languages and applying the concepts I learn along the 
                     way to the projects that I or my teams build. However, as I continue to expand my knowledge in the fields of computer science and math, I plan on adding value to any company that I work for, especially since I work well in fast-paced environments with constantly-evolving elements. 
