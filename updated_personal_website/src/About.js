@@ -17,7 +17,8 @@ const About = () => {
                     way to the projects that I or my teams build. However, as I continue to expand my knowledge in the fields of computer science and math, I plan on adding value to any company that I work for, especially since I work well in fast-paced environments with constantly-evolving elements. 
                     In terms of coding and markup languages, I enjoy working in Python, MySQL, React.js, HTML, CSS, Java, and JavaScript. On top of these, I am advancing my knowledge in using the PyTorch and Anaconda. 
                     Some of my personal interests include competitive swimming exploring national parks, distance running, and cooking Mediterranean food.</p>
-                <p></p>
+                    
+                <p>I am also extremely goal-oriented and driven, so when I have something in mind that needs to be accomplished such as a major programming assignment or running a half marathon, I know go around learning what I need to do to reach and then accomplish those goals.</p>
                 <button className="button">Explore</button>
             </div>
         </div>

@@ -22,29 +22,30 @@ const Navbar = () => {
     <div className="header">
         <nav className="navbar">
 
-            {/* Even though the smooth scroll works, we need to be able to see the title of each section, so we adjust the offset.*/}
-            <Link to="/" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>A Moment with Mihalis</Link>
+            {/*Even though the smooth scroll works, we need to be able to see the title of each section, so we adjust the offset.*/}
+            {/*Feel free to play around with the offset as deemed fit.*/}
+            <Link to="/" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>A Moment with Mihalis</Link>
 
             
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li> 
-                    <Link to="about" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>About</Link>
+                    <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
                 </li>
 
                 <li> 
-                    <Link to="skills" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Skills</Link>
+                    <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Skills</Link>
                 </li>
 
                 <li> 
-                    <Link to="projects" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Projects</Link>
+                    <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
                 </li>
 
                 <li> 
-                    <Link to="interests" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Interests</Link>
+                    <Link to="interests" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Interests</Link>
                 </li>
 
                 <li> 
-                    <Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Contact</Link>
+                    <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact</Link>
                 </li>
 
             </ul>
