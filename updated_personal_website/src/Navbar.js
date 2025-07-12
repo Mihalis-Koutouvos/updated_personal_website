@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {Link} from 'react-scroll'
 import "./Navbar.css"
 
 const Navbar = () => {
@@ -15,19 +16,40 @@ const Navbar = () => {
 
 
 
+    //Conventional to use unordered lists for navbar elements
   return (
     <div className="header">
         <nav className="navbar">
-            <div className="nav-left"> </div>
-            <div className="nav-center"> </div>
-            <div className="nav-right"> </div>
-        </nav>
 
+
+            <a href='/' className="moment-quote">A Moment with Mihalis</a>
+
+            
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
+                <li> 
+                    <a href="/" onClick={closeMenu}>About</a>
+                </li>
+
+                <li> 
+                    <a href="/" onClick={closeMenu}>Skills</a>
+                </li>
+
+                <li> 
+                    <a href="/" onClick={closeMenu}>Projects</a>
+                </li>
+
+                <li> 
+                    <a href="/" onClick={closeMenu}>Interests</a>
+                </li>
+
+                <li> 
+                    <a href="/" onClick={closeMenu}>Contact</a>
+                </li>
+
+            </ul>
+        </nav>
     </div>
   )
-
-
-
 }
 
 export default Navbar
