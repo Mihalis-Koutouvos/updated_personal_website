@@ -22,8 +22,8 @@ const Navbar = () => {
     <div className="header">
         <nav className="navbar">
 
-
-            <a href='/' className="moment-quote">A Moment with Mihalis</a>
+            {/* Even though the smooth scroll works, we need to be able to see the title of each section, so we adjust the offset.*/}
+            <Link to="/" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>A Moment with Mihalis</Link>
 
             
             <ul className={click ? "nav-menu active" : "nav-menu"}>
