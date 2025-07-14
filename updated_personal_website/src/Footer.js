@@ -4,7 +4,44 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+      <div className='container'>
+        <ul>
+          <li className='nav-item'>
+            <a href='#about'>About</a>
+
+          </li>
+
+          <li className='nav-item'>
+            <a href='#skills'>Skills</a>
+
+          </li>
+
+          <li className='nav-item'>
+            <a href='#projects'>Projects</a>
+
+          </li>
+
+          <li className='nav-item'>
+            <a href='#interests'>Interests</a>
+
+          </li>
+
+          <li className='nav-item'>
+            <a href='#contact'>Contact</a>
+
+          </li>
+
+        </ul>
+
+        <div className='final-info'>
+          <span className='line'></span>
+            Copyright © 2025 Mihalis Koutouvos
+            Email: mihaliskoutouvos@gmail.com
+        </div>
+
+      </div>
+    </div>
   )
 }
 
