@@ -1,4 +1,5 @@
 import React from 'react'
+import './Interests.css';
 
 const Interests = () => {
   return (

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.css';
 //rafce
 
 const Footer = () => {
