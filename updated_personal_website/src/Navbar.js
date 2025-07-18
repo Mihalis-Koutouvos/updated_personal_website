@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {FaBars, FaTimes} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 import "./Navbar.css"
 //rafce
@@ -24,8 +25,17 @@ const Navbar = () => {
 
             {/*Even though the smooth scroll works, we need to be able to see the title of each section, so we adjust the offset.*/}
             {/*Feel free to play around with the offset as deemed fit.*/}
-            <Link to="/" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>A Moment with Mihalis</Link>
+            <div className='moment-tag'>
+                <Link to="/" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>A Moment with Mihalis</Link>
+            </div>
+            
+            
+            
+            <div className='hamburger' onClick={handleClick}>
+                {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
+                    : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
 
+            </div>
             
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li> 
