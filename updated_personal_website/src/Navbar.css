@@ -25,6 +25,16 @@
     margin: 20px;
 }
 
+
+.moment-tag {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.moment-tag:hover {
+    transform: scale(0.8);
+    transition: 0.30s;
+}
+
 .nav-menu {
     list-style-type: none;
 }
