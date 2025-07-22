@@ -38,23 +38,23 @@ const Navbar = () => {
             </div>
             
             <ul className={click ? "nav-menu active" : "nav-menu"}>
-                <li> 
+                <li className='nav-item'> 
                     <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
                 </li>
 
-                <li> 
+                <li className='nav-item'> 
                     <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Skills</Link>
                 </li>
 
-                <li> 
+                <li className='nav-item'>  
                     <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
                 </li>
 
-                <li> 
+                <li className='nav-item'> 
                     <Link to="interests" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Interests</Link>
                 </li>
 
-                <li> 
+                <li className='nav-item'> 
                     <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact</Link>
                 </li>
 
