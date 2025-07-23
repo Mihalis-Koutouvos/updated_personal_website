@@ -1,0 +1,21 @@
+.footer .container .nav-item a {
+    color: black;
+}
+
+.footer .container .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.final-info {
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+

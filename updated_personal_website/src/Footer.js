@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='container'>
-        <ul>
+        <ul className="list">
           <li className='nav-item'>
             <a href='#about'>About</a>
 
@@ -37,7 +37,6 @@ const Footer = () => {
         <div className='final-info'>
           <span className='line'></span>
             Copyright © 2025 Mihalis Koutouvos
-            Email: mihaliskoutouvos@gmail.com
         </div>
 
       </div>
