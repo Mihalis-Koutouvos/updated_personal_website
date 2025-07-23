@@ -1,5 +1,6 @@
 .App {
-  background-color: #304A78;
+  /*background-color: #304A78;*/
+  background: linear-gradient(0.25turn, #2f4853, #3cb3c2, #d5a318);
   padding-top: 20px;
 }
 

@@ -19,7 +19,9 @@ const About = () => {
                     Some of my personal interests include competitive swimming exploring national parks, distance running, and cooking Mediterranean food.</p>
                     
                 <p>I am also extremely goal-oriented and driven, so when I have something in mind that needs to be accomplished such as a major programming assignment or running a half marathon, I know go around learning what I need to do to reach and then accomplish those goals.</p>
-                <button className="button">Explore</button>
+                <div className="button-container">
+                  <button className="button">Explore</button>
+                </div>
             </div>
         </div>
     </div>
