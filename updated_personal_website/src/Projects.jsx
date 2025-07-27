@@ -1,5 +1,7 @@
 import React from 'react'
 import './Projects.css';
+import ProjectCard from './ProjectCard';
+import ProjectInfo from './ProjectInfo';
 
 const Projects = () => {
   return (

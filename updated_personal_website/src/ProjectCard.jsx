@@ -1,10 +1,15 @@
 import React from 'react';
+import './ProjectInfo.js';
+import Tilt from 'react-parallax-tilt';
+import {motion} from 'framer-motion';
+import {fadeIn, textVariant} from '../utils/motion'
+
 
 const ProjectCard = ({name, description, link, tags}) => {
   return (
-    <div>
-        
-    </div>
+    <motion.div variants={fadeIn("up", "spring", id * 0.5)}>
+        test
+    </motion.div>
   )
 }
 
