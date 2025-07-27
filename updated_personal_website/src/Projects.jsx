@@ -2,6 +2,7 @@ import React from 'react'
 import './Projects.css';
 import ProjectCard from './ProjectCard';
 import ProjectInfo from './ProjectInfo';
+import SectionWrapper from './SectionWrapper';
 
 const Projects = () => {
   return (
