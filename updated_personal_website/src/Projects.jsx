@@ -13,27 +13,16 @@ const Projects = () => {
             <div className='text-section'>
                 <h2>Projects:</h2>
                 <span className='highlight-line'></span>
-                <ul>
-                    <li>
-                        <p></p>
-                    </li>
-
-                    <li></li>
-
-                    <li></li>
-
-                    <li></li>
-
-                    <li></li>
-
-                    <li></li>
-
-                    <li></li>
-
-                    <li></li>
-
-                    <li></li>
-                </ul>
+                
+                <div className='mt-20 flex flex-wrap gap-7'>
+                    {ProjectInfo.map((project, id) => (
+                        <ProjectCard 
+                            key={'project-${id}'}
+                            index={id}
+                            {...project}
+                        />
+                    ))}
+                </div>
                 
             </div>
         </div>
