@@ -20,7 +20,7 @@ const ProjectInfo = [
             },
             {
                 name: "JavaScipt",
-                color: "yellow-text-gradient",
+                color: "pink-text-gradient",
             },
             {
                 name: "Three.js",
@@ -36,27 +36,27 @@ const ProjectInfo = [
         tags: [
             {
                 name: "S3",
-                color: "yellow-color-gradient",
+                color: "yellow-text-gradient",
             },
             {
                 name: "Lambda",
-                color: "blue-color-gradient",
+                color: "blue-text-gradient",
             },
             {
                 name: "React.js",
-                color: "orange-color-gradient",
+                color: "orange-text-gradient",
             },
             {
                 name: "Python",
-                color: "green-color-gradient",
+                color: "green-text-gradient",
             },
             {
                 name: "Flask",
-                color: "blue-color-gradient",
+                color: "blue-text-gradient",
             },
             {
                 name: "MySQL",
-                color: "red-color-gradient",
+                color: "red-text-gradient",
             },
         ],
     },
@@ -68,19 +68,19 @@ const ProjectInfo = [
         tags: [
             {
                 name: "Python",
-                color: 'green-color-gradient',
+                color: 'green-text-gradient',
             },
             {
                 name: "PyTorch",
-                color: 'purple-color-gradient',
+                color: 'purple-text-gradient',
             },
             {
                 name: "Miniconda",
-                color: 'red-color-gradient',
+                color: 'red-text-gradient',
             },
             {
                 name: "JSON",
-                color: 'purple-color-gradient',
+                color: 'purple-text-gradient',
             },
         ],
     },
@@ -100,7 +100,7 @@ const ProjectInfo = [
             },
             {
                 name: "JavaScipt",
-                color: "yellow-text-gradient",
+                color: "pink-text-gradient",
             },
         ],
     }
