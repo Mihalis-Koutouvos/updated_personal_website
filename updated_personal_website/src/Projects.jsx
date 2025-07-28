@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 import './Projects.css';
 import ProjectCard from './ProjectCard';
 import ProjectInfo from './ProjectInfo';
-import SectionWrapper from './SectionWrapper';
 
 const Projects = () => {
   return (
@@ -15,7 +14,7 @@ const Projects = () => {
                 <h2>Projects:</h2>
                 <span className='highlight-line'></span>
                 
-                <div className='mt-20 flex flex-wrap gap-7'>
+                <div className='card-section'>
                     {ProjectInfo.map((project, id) => (
                         <ProjectCard 
                             key={'project-${id}'}

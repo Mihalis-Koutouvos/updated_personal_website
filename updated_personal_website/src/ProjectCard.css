@@ -1,0 +1,15 @@
+.tag-section {
+    display: flex;
+}
+
+.project-card {
+    background-color: navy;
+    border-radius: 15px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
