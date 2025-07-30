@@ -1,1 +1,8 @@
-
+.skill-outline {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    max-width: 1000px;
+    margin: 2rem auto;
+}

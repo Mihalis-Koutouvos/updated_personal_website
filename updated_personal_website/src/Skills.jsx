@@ -16,7 +16,7 @@ const Skills = () => {
                 <h2>Skills:</h2>
                 <span className='highlight-line'></span>
                 
-                <div className="flex flew-row flex-wrap justify-center gap-10">
+                <div className="skill-outline flex flew-row flex-wrap justify-center gap-10">
                     {Technologies.map((skill) => (
                       <div className='w-28 h-28' key={skill.name}>
                         <BallCanvas icon={skill.icon} />
