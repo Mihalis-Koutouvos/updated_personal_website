@@ -54,18 +54,6 @@ const Technologies = [
         icon: icons.numpy,
     },
     {
-        name: "Matplotlib",
-        icon: icons.matplotlib,
-    },
-    {
-        name: "NLTK",
-        icon: icons.nltk,
-    },
-    {
-        name: "Figma",
-        icon: icons.figma,
-    },
-    {
         name: "AWS S3",
         icon: icons.s3,
     },
@@ -74,24 +62,8 @@ const Technologies = [
         icon: icons.lambda,
     },
     {
-        name: "AWS EC2",
-        icon: icons.ec2,
-    },
-    {
         name: "Node.js",
         icon: icons.nodejs,
-    },
-    {
-        name: "Git",
-        icon: icons.git,
-    },
-    {
-        name: "GitHub",
-        icon: icons.github,
-    },
-    {
-        name: "Three.js",
-        icon: icons.threejs,
     },
 ]
 
