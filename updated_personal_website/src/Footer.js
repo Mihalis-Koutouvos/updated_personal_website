@@ -13,6 +13,11 @@ const Footer = () => {
           </li>
 
           <li className='nav-item'>
+            <a href='#experiences'>Experiences</a>
+
+          </li>
+
+          <li className='nav-item'>
             <a href='#skills'>Skills</a>
 
           </li>
