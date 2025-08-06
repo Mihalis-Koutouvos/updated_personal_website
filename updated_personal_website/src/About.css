@@ -98,3 +98,16 @@ p {
   color: #000;
   font-weight: bold;
 }
+
+.typewriter {
+  color: white;
+  font-size: 50px;
+  padding-top: 70px;
+  padding-left: 50px;
+}
+
+.image-and-text {
+  display: flex;
+  gap: 30px;
+
+}
