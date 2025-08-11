@@ -3,7 +3,7 @@ const ExperienceInfo = [
         title: "Lifeguard",
         company_name: "Life Time",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -17,7 +17,7 @@ const ExperienceInfo = [
         title: "Summer Swim Team Head Coach",
         company_name: "Life Time",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -31,7 +31,7 @@ const ExperienceInfo = [
         title: "Assistant Swim Team Coach",
         company_name: "Life Time",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -45,7 +45,7 @@ const ExperienceInfo = [
         title: "Aquatics Swim Instructor",
         company_name: "Life Time",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -59,7 +59,7 @@ const ExperienceInfo = [
         title: "Software Developer",
         company_name: "Oasis",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -73,7 +73,7 @@ const ExperienceInfo = [
         title: "Online Tutor",
         company_name: "The Princeton Review",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -87,7 +87,7 @@ const ExperienceInfo = [
         title: "Content Creator/Writer for the Marketing Team",
         company_name: "AI NU",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -101,7 +101,7 @@ const ExperienceInfo = [
         title: "Student Project Manager for EAI Digest",
         company_name: "Institute for Experiential AI at Northeastern University",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -115,7 +115,7 @@ const ExperienceInfo = [
         title: "Beginner Russian Ambassador",
         company_name: "NUCALLS",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -129,7 +129,7 @@ const ExperienceInfo = [
         title: "Research Assistant",
         company_name: "AI Perception Lab",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -143,7 +143,7 @@ const ExperienceInfo = [
         title: "Co-Founder/Director of Operations",
         company_name: "MedCS Lab",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -157,7 +157,7 @@ const ExperienceInfo = [
         title: "Teaching Assistant",
         company_name: "Khoury College of Computer Sciences",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -171,7 +171,7 @@ const ExperienceInfo = [
         title: "IT Application Business Analyst Developer Co-op",
         company_name: "MassDOT",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
@@ -185,7 +185,7 @@ const ExperienceInfo = [
         title: "Software Engineer",
         company_name: "ScribeSense - The Future of Clinical Documentation",
         icon: ,
-        iconBg,
+        icon_background: "#383E56",
         date: "",
         points: [
             "",
