@@ -1,3 +1,5 @@
+import * as expIcons from "./ExperSymbols";
+
 const ExperienceInfo = [
     {
         title: "Lifeguard",
