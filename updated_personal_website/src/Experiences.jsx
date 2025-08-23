@@ -7,6 +7,7 @@ import {SectionWrapper} from './SectionWrapper';
 import {textVariant} from '../utils/motion';
 import './Experiences.css';
 import ExperienceInfo from './ExperienceInfo';
+import ExperienceCard from './ExperienceCard';
 
 const Experiences = () => {
   return (
@@ -25,16 +26,16 @@ const Experiences = () => {
 
                   </motion.div>
 
-                  <div>
+                  <div className="mt-20 flex flex-col">
                     <VerticalTimeline>
                       {ExperienceInfo.map((experience, index) => (
-                        
+                        <ExperienceCard
+                          key={`experience-${index}`}
+                          experience={experience}
+                          />
                       ))}
                     </VerticalTimeline>
                   </div>
-
-
-
                 </>
 
 
