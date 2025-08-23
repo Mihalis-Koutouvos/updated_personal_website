@@ -1,14 +1,11 @@
-import React from 'react'
-import './Experiences.css'
-import {VerticalTimeline, VarticalTimeLineElement} from 'react-vertical-timeline-component';
+import React from 'react';
+import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import {motion} from 'framer-motion';
 
 import 'react-vertical-timeline-component/style.min.css';
-import {styles} from './styles';
-import 
-import {SectionWrapper} 
-import {textVariant} from 
-
+import {SectionWrapper} from './SectionWrapper';
+import {textVariant} from '../utils/motion';
+import './Experiences.css';
 import ExperienceInfo from './ExperienceInfo';
 
 const Experiences = () => {
@@ -18,10 +15,28 @@ const Experiences = () => {
     <div className='experiences' id='experiences'>
         <div className='container'>
             
-            
             <div className='text-section'>
                 <h2>Experiences:</h2>
                 <span className='highlight-line'></span>
+                
+                <>
+                  <motion.div variants={textVariant()}>
+                      <p>Here is some of my work experience!</p>
+
+                  </motion.div>
+
+                  <div>
+                    <VerticalTimeline>
+                      {ExperienceInfo.map((experience, index) => (
+                        
+                      ))}
+                    </VerticalTimeline>
+                  </div>
+
+
+
+                </>
+
 
 
                 
@@ -31,4 +46,4 @@ const Experiences = () => {
   )
 }
 
-export default Experiences
+export default SectionWrapper(Experiences, 'work')
