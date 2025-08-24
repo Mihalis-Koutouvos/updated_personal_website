@@ -3,8 +3,8 @@ import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline
 import {motion} from 'framer-motion';
 
 import 'react-vertical-timeline-component/style.min.css';
-import {SectionWrapper} from './SectionWrapper';
-import {textVariant} from '../utils/motion';
+import SectionWrapper from './SectionWrapper';
+import {textVariant} from './utils/motion';
 import './Experiences.css';
 import ExperienceInfo from './ExperienceInfo';
 import ExperienceCard from './ExperienceCard';

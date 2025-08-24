@@ -3,13 +3,13 @@ import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline
 import {motion} from 'framer-motion';
 
 import 'react-vertical-timeline-component/style.min.css';
-import {SectionWrapper} from './SectionWrapper';
-import {textVariant} from '../utils/motion';
+import SectionWrapper from './SectionWrapper';
+import {textVariant} from './utils/motion';
 import './Experiences.css';
 import ExperienceInfo from './ExperienceInfo';
 
 
-const ExperienceCard = (experience) => {
+const ExperienceCard = ({experience}) => {
   return (
     <VerticalTimelineElement
         contentStyle={{
@@ -22,7 +22,7 @@ const ExperienceCard = (experience) => {
         }}
 
         date={experience.date}
-        iconStyle={{background: experience.iconBg}}
+        iconStyle={{background: experience.icon_background}}
         icon={
             <div className='flex justify-center items-center w-full h-full'>
                 <img 
