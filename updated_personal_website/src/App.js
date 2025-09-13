@@ -8,11 +8,13 @@ import Projects from "./Projects";
 import Interests from "./Interests";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import ParticleBackground from "./ParticleBackground";
 
 function App() {
-  
+
   return (
     <div className="App">
+      <ParticleBackground />
       <Navbar />
       <About />
       <Experiences />
