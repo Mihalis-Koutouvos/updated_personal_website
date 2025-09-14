@@ -19,7 +19,7 @@ const ProjectInfo = [
                 color: "blue-text-gradient",
             },
             {
-                name: "JavaScipt",
+                name: "JavaScript",
                 color: "pink-text-gradient",
             },
             {
@@ -99,7 +99,7 @@ const ProjectInfo = [
                 color: "blue-text-gradient",
             },
             {
-                name: "JavaScipt",
+                name: "JavaScript",
                 color: "pink-text-gradient",
             },
         ],
