@@ -1,5 +1,5 @@
 .footer .container .nav-item a {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 20px; 
 }
 
@@ -17,7 +17,7 @@
 
 
 .footer {
-    background-color: white;
+    background-color: rgba(20, 65, 71, 0.9);
     padding-top: 20px;
 }
 

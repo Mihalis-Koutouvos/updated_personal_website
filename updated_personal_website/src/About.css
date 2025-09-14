@@ -61,8 +61,8 @@ p {
   content: "";
   background: linear-gradient(
     45deg,
-    #FF0000, #FF7300, #FFFB00, #48FF00,
-    #00FFD5, #002BFF, #FF00C8, #FF0000
+    #385868, #4c5ba9, #86d0d4, #33c7c7,
+    #00FFD5, #77b2c9, #1e234f, #477ed1
   );
   position: absolute;
   top: -2px;

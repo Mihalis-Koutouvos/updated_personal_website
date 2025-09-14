@@ -39,7 +39,7 @@ const Footer = () => {
 
         </ul>
 
-        <div className='final-info'>
+        <div className='final-info' style={{color: 'white'}}>
           <span className='line'></span>
             Copyright © 2025 Mihalis Koutouvos
         </div>
