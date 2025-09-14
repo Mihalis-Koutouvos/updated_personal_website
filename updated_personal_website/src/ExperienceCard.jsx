@@ -5,7 +5,7 @@ import {motion} from 'framer-motion';
 import 'react-vertical-timeline-component/style.min.css';
 import SectionWrapper from './SectionWrapper';
 import {textVariant} from './utils/motion';
-import './Experiences.css';
+import './ExperienceCard.css';
 import ExperienceInfo from './ExperienceInfo';
 
 
@@ -24,11 +24,11 @@ const ExperienceCard = ({experience}) => {
         date={experience.date}
         iconStyle={{background: experience.icon_background}}
         icon={
-            <div className='flex justify-center items-center w-full h-full'>
-                <img 
+            <div className='image-container'>
+                <img
                     src={experience.icon}
                     alt={experience.company_name}
-                    className='w-[60%] h-[60%] object-contain'
+                    className='company-logo'
                 />
             </div>
         }
