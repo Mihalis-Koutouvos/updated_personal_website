@@ -17,6 +17,7 @@ const ProjectCard = ({id, name, description, link, tags}) => {
             
             <div className='card-intro'>
                 <h3 className="text-white font-bold text-[20px]">{name}</h3>
+                <a href={link}>GitHub</a>
                 <p className='mt-2 text-secondary text-[14px]'>{description}</p>
             </div>
 

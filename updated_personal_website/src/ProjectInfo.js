@@ -1,6 +1,35 @@
 const ProjectInfo = [
-    {
+        {
         id: 1,
+        name: "Smart KPI Dashboard",
+        description: "Crafting an AI- and ML-powered KPI dashboard with React.js, PostgreSQL, and Python that turns natural language queries into SQL, delivering role-specific insights from LLMs (OpenAI and Claude).",
+        link: "https://github.com/Mihalis-Koutouvos/smart_kpi_dashboard",
+        tags: [
+
+            {
+                name: "Python",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "Claude",
+                color: "red-text-gradient",
+            },
+            {
+                name: "OpenAI",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "React.js",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "PostgreSQL",
+                color: "purple-text-gradient",
+            },
+        ],
+    },
+    {
+        id: 2,
         name: "Updated Portfolio",
         description: "An updated version of my original portfolio that utilizes more modern coding techniques.",
         link: "https://github.com/Mihalis-Koutouvos/updated_personal_website",
@@ -29,7 +58,7 @@ const ProjectInfo = [
         ],
     },
     {
-        id: 2,
+        id: 3,
         name: "MetisCare Hub",
         description: "A hospital-based, full-stack, ETL pipeline that speeds up the process of finding vacant rooms during stressful hours on call.",
         link: "https://github.com/Mihalis-Koutouvos/MetisCare_Hub",
@@ -61,7 +90,7 @@ const ProjectInfo = [
         ],
     },
     {
-        id: 3,
+        id: 4,
         name: "Odessa",
         description: "An AI chatbot that educates users on common physical injuries and diseases.",
         link: "https://github.com/Mihalis-Koutouvos/odessa",
@@ -85,7 +114,7 @@ const ProjectInfo = [
         ],
     },
     {
-        id: 4,
+        id: 5,
         name: "Portfolio - Original",
         description: "My first attempt at launching a personal portfolio to display projects, achievements, skills, and hobbies.",
         link: "https://github.com/Mihalis-Koutouvos/Mihalis-Koutouvos.github.io",

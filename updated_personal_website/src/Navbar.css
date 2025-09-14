@@ -23,6 +23,7 @@
 .header .nav-menu a {
     color: #ffffff;
     margin: 20px;
+    font-size: 18px;
 }
 
 .header .nav-menu a:hover {
@@ -61,6 +62,7 @@
 
 .header .nav-item {
     padding: 1rem;
+    padding-top: 30px;
     font-weight: 500;
 }
 

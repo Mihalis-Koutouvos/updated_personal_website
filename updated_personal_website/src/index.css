@@ -50,7 +50,7 @@ a {
 
 
 .purple-text-gradient {
-  background: rgb(84, 15, 105);
+  background: rgb(197, 178, 203);
   background: -webkit-linear-gradient(
     to top,
     #601b91,
@@ -59,7 +59,7 @@ a {
   background: linear-gradient(
     to top,
     #601b91,
-    rgb(111, 74, 133)
+    rgb(195, 164, 212)
   );
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-clip: text;

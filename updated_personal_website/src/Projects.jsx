@@ -15,11 +15,14 @@ const Projects = () => {
                 <span className='highlight-line'></span>
                 
                 <div className='card-section'>
-                    {ProjectInfo.map((project, id) => (
+                    {ProjectInfo.map((project) => (
                         <ProjectCard 
-                            key={'project-${id}'}
-                            index={id}
-                            {...project}
+                            key={project.id}
+                            id={project.id}
+                            name={project.name}
+                            description={project.description}
+                            link={project.link}
+                            tags={project.tags}
                         />
                     ))}
                 </div>

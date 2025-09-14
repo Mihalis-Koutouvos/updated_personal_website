@@ -74,9 +74,8 @@ const ExperienceInfo = [
         icon_background: "#383E56",
         date: "May 2024 - Aug 2024",
         points: [
-            "",
-            "",
-            "",
+            "Operated as a remote tutor for The Princeton Review and its Tutor.com branch",
+            "Taught students ranging from middle school to college in one-on-one or group environments to improve comprehension in topics such as high school English and college-essay writing",
 
         ],
     },
@@ -166,9 +165,9 @@ const ExperienceInfo = [
         icon_background: "#383E56",
         date: "Jul 2025 - Present",
         points: [
-            "TBD!",
-            "TBD!",
-            "TBD!",
+            "Optimizing a RAG pipeline for RFI processing and compliance, reducing manual review time by 5+ hours per week while maintaining 82% accuracy for highway RFIs",
+            "Collaborating with engineers and analysts in an Agile environment to devise cost-effective AI solutions for highway infrastructure projects",
+            "Modernizing a legacy construction platform into a cloud-native, AI system with AWS tools to boost reliability and scalability",
         ],
     },
 
@@ -179,9 +178,8 @@ const ExperienceInfo = [
         icon_background: "#383E56",
         date: "Jul 2025 - Present",
         points: [
-            "TBD!",
-            "TBD!",
-            "TBD!",
+            "Developing an AI-powered medical scribe platform to reduce the time spent on clinical documentation by 60%+",
+            "Modeling the application to ingest real-time conversations and notes and generate clinical notes and codes (SOAP, ICD/CPT) while also integrating seamlessly with Electronic Health Records (EHRs) such as Epic and Oracle Health",
         ],
     },
 

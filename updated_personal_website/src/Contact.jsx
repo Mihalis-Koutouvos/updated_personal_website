@@ -41,6 +41,7 @@ const Contact = () => {
             <div className='text-section'>
                 <h2>Contact:</h2>
                 <span className='highlight-line'></span>
+                <p>If you would like to contact me, please fill out the form below!</p>
                 
                 <section className='contact-form'> 
                   <form onSubmit={onSubmit}>

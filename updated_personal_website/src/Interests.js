@@ -65,6 +65,13 @@ const Interests = () => {
                       I am now on a path to master the craft of Mediterranean foods from countries including Greece, Italy, and Turkey, from where I share many roots from among my family.
                     </p>
                   </li>
+
+                  <li>
+                    <h3>Hiking:</h3>
+                    <p>
+                      I love being outdoors. Whether it be a run, walk, or hike, I feel at peace.
+                    </p>
+                  </li>
                 </ul>
                 
             </div>
