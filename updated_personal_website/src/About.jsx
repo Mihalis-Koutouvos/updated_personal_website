@@ -20,7 +20,7 @@ const About = () => {
 
 
         <div className="image-and-text">
-          <img src='/images/profile-pic.jpeg' alt='Mihalis' className='mihalis' />
+          <img src={`${process.env.PUBLIC_URL}/images/profile-pic.jpeg`} alt='Mihalis' className='mihalis' />
 
           <div className="typewriter">
             <Typewriter

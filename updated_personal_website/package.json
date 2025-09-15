@@ -2,7 +2,7 @@
   "name": "updated_personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Mihalis-Koutouvos/updated_personal_website",
+  "homepage": "https://mihalis-koutouvos.github.io/updated_personal_website",
   "dependencies": {
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.18.0",
