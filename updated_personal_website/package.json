@@ -2,7 +2,7 @@
   "name": "updated_personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://your-username.github.io/your-repo-name",
+  "homepage": "https://github.com/Mihalis-Koutouvos/updated_personal_website",
   "dependencies": {
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.18.0",
@@ -54,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
