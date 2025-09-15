@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Mihalis-Koutouvos/updated_personal_website/static/css/main.e1aa1e35.css",
-    "main.js": "/Mihalis-Koutouvos/updated_personal_website/static/js/main.05a88e7a.js",
-    "static/media/scribesense.png": "/Mihalis-Koutouvos/updated_personal_website/static/media/scribesense.db0328d16edfed158449.png",
-    "static/media/lambda.png": "/Mihalis-Koutouvos/updated_personal_website/static/media/lambda.2d13eb93198195a97668.png",
-    "static/media/redis.png": "/Mihalis-Koutouvos/updated_personal_website/static/media/redis.a57d4ed26e49cb525e20.png",
-    "static/media/mysql.png": "/Mihalis-Koutouvos/updated_personal_website/static/media/mysql.630224435cea96cb4e3b.png",
-    "static/media/java.png": "/Mihalis-Koutouvos/updated_personal_website/static/media/java.edac1b059ff2217c9a66.png",
-    "static/media/nodejs.png": "/Mihalis-Koutouvos/updated_personal_website/static/media/nodejs.f1ac9707e34956fdc1de.png",
-    "static/media/numpy.png": "/Mihalis-Koutouvos/updated_personal_website/static/media/numpy.69015f256c039c694457.png",
-    "static/media/pytorch.png": "/Mihalis-Koutouvos/updated_personal_website/static/media/pytorch.8e82d0e97e3aa9750a44.png",
-    "static/media/s3.png": "/Mihalis-Koutouvos/updated_personal_website/static/media/s3.dfc47c8f737823a3a520.png",
-    "static/media/python.svg": "/Mihalis-Koutouvos/updated_personal_website/static/media/python.c3fe7e62767233fa523b4839f7fcda3b.svg",
-    "index.html": "/Mihalis-Koutouvos/updated_personal_website/index.html",
-    "main.e1aa1e35.css.map": "/Mihalis-Koutouvos/updated_personal_website/static/css/main.e1aa1e35.css.map",
-    "main.05a88e7a.js.map": "/Mihalis-Koutouvos/updated_personal_website/static/js/main.05a88e7a.js.map"
+    "main.css": "/updated_personal_website/static/css/main.e1aa1e35.css",
+    "main.js": "/updated_personal_website/static/js/main.a8c26201.js",
+    "static/media/scribesense.png": "/updated_personal_website/static/media/scribesense.db0328d16edfed158449.png",
+    "static/media/lambda.png": "/updated_personal_website/static/media/lambda.2d13eb93198195a97668.png",
+    "static/media/redis.png": "/updated_personal_website/static/media/redis.a57d4ed26e49cb525e20.png",
+    "static/media/mysql.png": "/updated_personal_website/static/media/mysql.630224435cea96cb4e3b.png",
+    "static/media/java.png": "/updated_personal_website/static/media/java.edac1b059ff2217c9a66.png",
+    "static/media/nodejs.png": "/updated_personal_website/static/media/nodejs.f1ac9707e34956fdc1de.png",
+    "static/media/numpy.png": "/updated_personal_website/static/media/numpy.69015f256c039c694457.png",
+    "static/media/pytorch.png": "/updated_personal_website/static/media/pytorch.8e82d0e97e3aa9750a44.png",
+    "static/media/s3.png": "/updated_personal_website/static/media/s3.dfc47c8f737823a3a520.png",
+    "static/media/python.svg": "/updated_personal_website/static/media/python.c3fe7e62767233fa523b4839f7fcda3b.svg",
+    "index.html": "/updated_personal_website/index.html",
+    "main.e1aa1e35.css.map": "/updated_personal_website/static/css/main.e1aa1e35.css.map",
+    "main.a8c26201.js.map": "/updated_personal_website/static/js/main.a8c26201.js.map"
   },
   "entrypoints": [
     "static/css/main.e1aa1e35.css",
-    "static/js/main.05a88e7a.js"
+    "static/js/main.a8c26201.js"
   ]
 }
